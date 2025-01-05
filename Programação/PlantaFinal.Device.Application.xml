@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbolconfiguration xmlns="http://www.3s-software.com/schemas/Symbolconfiguration.xsd">
+  <Header>
+    <Version>3.5.8.0</Version>
+    <SymbolConfigObject version="3.5.8.10" />
+    <ProjectInfo name="PlantaFinal" devicename="Device" appname="Application" />
+  </Header>
+  <TypeList>
+    <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
+  </TypeList>
+  <NodeList>
+    <Node name="Application" nodeflags="NodeTypeBranchNode BranchNodeApplicationName">
+      <Node name="PLC_PRG" nodeflags="NodeTypeBranchNode SigTypeProgram">
+        <Node name="_Auto" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_EmergencyStop" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Manual" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Reset" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_AtPusher1Exit" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_AtPusher2Exit" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_BaseAtExit" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_LidAtExit" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Pusher1Back" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Pusher1Front" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Pusher2Back" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Pusher2Front" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Sensor1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_Sensor2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_StopBlade1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_StopBlade2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S01_VisionSensor1" nodeflags="SigTypeProgram ExportedVariable" type="T_WORD" access="ReadWrite" />
+        <Node name="_S01_VisionSensor2" nodeflags="SigTypeProgram ExportedVariable" type="T_WORD" access="ReadWrite" />
+        <Node name="_S02_BaseAtEntry" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_BaseAtPlace" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_BaseClamped" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_LidAtEntry" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_LidAtPlace" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_LidClamped" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_MovingX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S02_MovingZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Start" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_Stop" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="ResetLight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_Conveyor1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_Conveyor2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_EntryConveyor1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_EntryConveyor2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_Pusher1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_Pusher2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_BasesConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_ClampBase" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_ClampLid" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_Grab" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_LidsConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_MoveX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_MoveZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S02_PosRaiseBase" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="StartLight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="StopLight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+      </Node>
+    </Node>
+  </NodeList>
+</Symbolconfiguration>

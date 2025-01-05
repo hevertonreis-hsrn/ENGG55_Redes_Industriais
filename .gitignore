@@ -1,1 +1,4 @@
 /Programação/*.opt
+*.bootinfo
+*.compileinfo
+*.bootinfo_guids
