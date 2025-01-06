@@ -26,8 +26,6 @@
         <Node name="_S01_Pusher2Front" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_S01_Sensor1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_S01_Sensor2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
-        <Node name="_S01_StopBlade1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
-        <Node name="_S01_StopBlade2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_S01_VisionSensor1" nodeflags="SigTypeProgram ExportedVariable" type="T_WORD" access="ReadWrite" />
         <Node name="_S01_VisionSensor2" nodeflags="SigTypeProgram ExportedVariable" type="T_WORD" access="ReadWrite" />
         <Node name="_S02_BaseAtEntry" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
@@ -47,6 +45,8 @@
         <Node name="S01_EntryConveyor2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S01_Pusher1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S01_Pusher2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_RollerStop1" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S01_RollerStop2" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S02_BasesConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S02_ClampBase" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S02_ClampLid" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
