@@ -7,6 +7,7 @@
   </Header>
   <TypeList>
     <TypeSimple name="T_BOOL" size="1" swapsize="0" typeclass="Bool" iecname="BOOL" />
+    <TypeSimple name="T_INT" size="2" swapsize="2" typeclass="Int" iecname="INT" />
     <TypeSimple name="T_WORD" size="2" swapsize="2" typeclass="Word" iecname="WORD" />
   </TypeList>
   <NodeList>
@@ -41,6 +42,13 @@
         <Node name="_S03_ItemAtEntry" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_S03_MovingX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_S03_MovingZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_AtEntry" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_AtLeft" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_AtLoad" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_AtMiddle" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_AtRight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_MovingX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="_S04_MovingZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_Start" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="_Stop" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="ProductCounter" nodeflags="SigTypeProgram ExportedVariable" type="T_WORD" access="ReadWrite" />
@@ -61,10 +69,18 @@
         <Node name="S02_MoveX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S02_MoveZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S02_PosRaiseBase" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S03_Emitter" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S03_EntryConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S03_Grab" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S03_MoveX" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="S03_MoveZ" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S03_RollerConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_EntryConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_ForksLeft" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_ForksRight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_Lift" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_LoadConveyor" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
+        <Node name="S04_TargetPosition" nodeflags="SigTypeProgram ExportedVariable" type="T_INT" access="ReadWrite" />
         <Node name="StartLight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
         <Node name="StopLight" nodeflags="SigTypeProgram ExportedVariable" type="T_BOOL" access="ReadWrite" />
       </Node>
