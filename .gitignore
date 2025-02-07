@@ -2,3 +2,4 @@
 *.bootinfo
 *.compileinfo
 *.bootinfo_guids
+/Programação/*.~u
